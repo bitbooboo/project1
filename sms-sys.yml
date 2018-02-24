@@ -14,5 +14,5 @@ management:
 zhx:
   configString: 哈哈哈
 redis:
-  host: 192.168.125.131
+  host: localhost
   port: 6379
