@@ -1,0 +1,18 @@
+spring:
+  # rabbitmq的地址 用户名 密码
+  rabbitmq:
+    host: 192.168.99.100
+    # host: rabbitmq
+    username: guest
+    password: '{cipher}54afbcfe3a6d23f52ff36c17104894ab199621c7dc709f55f209ff295e3795bcfbd'
+server:
+  port: 9002
+# 使得/refresh不需要验权
+management:
+  security:
+    enabled: false
+zhx:
+  configString: 哈哈哈
+redis:
+  host: localhost
+  port: 6379
