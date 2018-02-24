@@ -1,2 +1,8 @@
+server:
+  port: 9002
+# 使得/refresh不需要验权
+management:
+  security:
+    enabled: false
 zhx:
   configString: 哈哈哈
